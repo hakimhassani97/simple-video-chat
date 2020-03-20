@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/hakimhassani97/simple-video-chat/issues"
   },
-  "homepage": "https://github.com/hakimhassani97/simple-video-chat#readme"
+  "homepage": "https://github.com/hakimhassani97/simple-video-chat#readme",
+  "dependencies": {
+    "simple-peer": "^9.6.2"
+  }
 }
