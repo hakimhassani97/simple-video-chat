@@ -1,0 +1,24 @@
+{
+  "name": "simple-video-chat",
+  "version": "1.0.0",
+  "description": "a simple video chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakimhassani97/simple-video-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "p2p",
+    "video"
+  ],
+  "author": "hakimhassani97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hakimhassani97/simple-video-chat/issues"
+  },
+  "homepage": "https://github.com/hakimhassani97/simple-video-chat#readme"
+}
