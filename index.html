@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Chat</title>
+</head>
+<style>
+    #local, #remote{
+        display: block;
+    }
+</style>
+<body>
+    <label>local_id</label>
+    <textarea id="local"></textarea>
+    <label>remote_id</label>
+    <textarea id="remote"></textarea>
+    <button id="connect">connect</button>
+    <input type="text" id="message"/>
+    <button id="send">send</button>
+    <pre id="messages"></pre>
+    <video id="remoteVideo"></video>
+</body>
+<script src="bundle.js"></script>
+</html>
