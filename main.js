@@ -3,7 +3,14 @@ navigator.getUserMedia({ video:true, audio:true},(stream)=>{
     var local = new Peer({
         initiator:location.hash==='#init',
         trickle:false,
-        stream: stream
+        stream: stream,
+        iceTransportPolicy: 'relay',
+        config: {
+            iceServers: [
+                {'url': 'stun:stun.services.mozilla.com', 'urls': 'stun:stun.services.mozilla.com'},
+                {'url': 'stun:stun.l.google.com:19302', 'urls': 'stun:stun.l.google.com:19302'}
+            ]
+        }
     })
 
     local.on('signal',(data)=>{
